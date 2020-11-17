@@ -22,13 +22,13 @@ function numbersOnPage() {
 
     const container = document.getElementById('looped-numbers');
     container.innerHTML = "";
-    const listItems = []
+    const listItems = [];
 
     for (let jaha = 0; jaha < 10; jaha++) {
-        container.innerText = jaha;
+        container.innerText = listItems;        
         console.log(jaha);
-
-
     }
+    
+    listItems.push(jaha);
 }
 
